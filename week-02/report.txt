@@ -1,0 +1,15 @@
+Проверка сайтов: 2026-06-23 15:18:28
+✗ https://google.com
+✗ https://github.com
+✗ https://httpstat.us/500
+
+Проверка сайтов: 2026-06-23 15:18:40
+✗ https://google.com
+✗ https://github.com
+✗ https://httpstat.us/500
+
+Проверка сайтов: 2026-06-23 15:25:47
+✓ https://google.com
+✓ https://github.com
+✗ https://httpstat.us/500 - <urlopen error _ssl.c:983: The handshake operation timed out>
+

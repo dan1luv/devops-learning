@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+import urllib.request
+import datetime
+import ssl
+import certifi
+
+sites = [
+ "https://google.com",
+ "https://github.com",
+ "https://httpstat.us/500",
+]
+
+print(f"Проверка сайтов: {datetime.datetime.now()}")
+
