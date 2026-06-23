@@ -1,1 +1,15 @@
 Урок 4 - Git ветки и коммиты
+
+=== Урок 4 - Git ===
+git init - создать репозиторий
+git status - что изменилось
+git add . - добавить все в staging
+git diff - посмотреть изменения до коммита
+git commit -m "message" - сохранить снимок
+git log --oneline - история коммитов
+git checkout -b name - создать и переключиться на папку
+git checkout main - переключиться на ветку
+git merge name - влить ветку в текущую
+git branch -d name - удалить ветку
+git remote add origin URL - подключить GitHub
+git push -u origin main - отправить на GitHub
