@@ -1,0 +1,16 @@
+services:
+  web:
+    image: nginx:latest
+    ports:
+      - "8080:80"
+    volumes:
+      - ./html:/usr/share/nginx/html
+    depends_on:
+      - monitor
+
+  monitor:
+    build:
+      context: ../..
+      dockerfile: week-03/Dockerfile
+    volumes:
+      - ../../week-02:/app

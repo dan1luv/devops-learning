@@ -18,3 +18,13 @@
 ✓ https://github.com
 ✗ https://httpstat.us/500 - <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>
 
+Проверка сайтов: 2026-06-24 17:24:14
+✓ https://google.com
+✓ https://github.com
+✗ https://httpstat.us/500 - Remote end closed connection without response
+
+Проверка сайтов: 2026-06-24 17:25:49
+✓ https://google.com
+✓ https://github.com
+✗ https://httpstat.us/500 - Remote end closed connection without response
+
