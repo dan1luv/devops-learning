@@ -13,3 +13,8 @@
 ✓ https://github.com
 ✗ https://httpstat.us/500 - <urlopen error _ssl.c:983: The handshake operation timed out>
 
+Проверка сайтов: 2026-06-24 13:59:14
+✓ https://google.com
+✓ https://github.com
+✗ https://httpstat.us/500 - <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>
+

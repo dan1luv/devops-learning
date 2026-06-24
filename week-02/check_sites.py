@@ -22,5 +22,5 @@ for site in sites:
 
 print(report)
 
-with open("week-02/report.txt", "a") as f:
+with open("report.txt", "a") as f:
  f.write(report + "\n")

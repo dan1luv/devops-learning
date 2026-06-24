@@ -13,3 +13,12 @@ git merge name - влить ветку в текущую
 git branch -d name - удалить ветку
 git remote add origin URL - подключить GitHub
 git push -u origin main - отправить на GitHub
+
+=== Урок 5 - Python ===
+python3 - запуск интерпретатора
+list = ["a","b"] - список
+for item in list - цикл по списку
+try/except - обработка ошибок
+f"текст {переменная}" - f-строка
+open("file", "a") - открыть файл на добавление
+import - подключение модуля
