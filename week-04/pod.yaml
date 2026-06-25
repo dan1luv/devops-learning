@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+ name: site-checker
+ labels:
+  app: site-checker
+spec:
+ containers:
+ - name: site-checker
+   image: dan1luv/site-checker:latest
+ restartPolicy: Never

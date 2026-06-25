@@ -1,0 +1,19 @@
+=== Урок 10 - Kubernetes ===
+minikube start - запустить локальный кластер
+kubectl get nodes - список нод
+kubectl get pods - список подов
+kubectl get pods -A - все поды, включая системные
+kubectl apply -f file.yaml - применить манифест
+kubectl logs POD - логи пода
+kubectl delete pod POD - удалить под
+kubectl get deployment - список деплойментов
+kubectl get service - список сервисов
+minikube service NAME --url - получить url сервиса
+
+Pod - минимальная единица, обертка вокруг контейнера
+Deployment - управляет подами, обеспечивает replicas
+Service - стабильный адрес для группы подов
+replicas: 3 - отказоустойчивость + балансировка нагрузки
+restartPolicy: Never - под не перезапусается после завершения
+Reconciliation loop - K8s постоянно сравнивает желаемое с реальным
+Self-healing - упавший под автоматически пересоздается
