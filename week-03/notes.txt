@@ -22,3 +22,14 @@ depends_on - порядок запуска сервисов
 services - список сервисов в docker-compose.yml
 ports: "8080:80" - проброс портов хост:контейнер
 Контейнеры общаются через сеть по имени сервиса
+
+=== Урок 8 - GitHub Actions ===
+.github/workflows/*.yml - файлы пайплайнов
+on: push - триггер при git push
+on: schedule: cron - триггер по расписанию
+jobs - список задач
+runs-on: ubuntu-latest - чистая Ubuntu на серверах GitHub
+steps - шаги внутри задачи
+uses: actions/checkout@v4 - готовое действие
+run: - выполнить shell команду
+каждый push = запуск пайплайна
