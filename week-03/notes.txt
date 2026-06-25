@@ -33,3 +33,10 @@ steps - шаги внутри задачи
 uses: actions/checkout@v4 - готовое действие
 run: - выполнить shell команду
 каждый push = запуск пайплайна
+
+=== Урок 9 - Docker Hub + CI/CD полный цикл ===
+docker tag IMAGE USERNAME/IMAGE:TAG - создать тег
+docker push USERNAME/IMAGE:TAG - запушить на Docker Hub
+secrets.DOCKER_USERNAME - секреты в GitHub Axtions
+needs: check - job запускается только после успеха другого
+Полный цикл: git push -> тесты -> сборка образа -> push на Hub
