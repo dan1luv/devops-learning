@@ -1,0 +1,19 @@
+=== Урок 11 - Terraform ===
+terraform init - скачать провайдеры
+terraform plan - показать, что изменится (не применять)
+terraform apply - применить изменения
+terraform destroy - уничтожить все, что создано
+-auto-approve - без подтверждения yes
+
+State (terraform.tfstate) - память Terraform, что уже создано
+Provider - плагин для работы с конкретным облаком/сервисом
+Resource - ресурс, которым управляет Terraform
+Идемпотентность - повторный apply не меняет то, что уже совпадает
+
++ create - создать
+~ update - изменить
+- destroy - удалить
++/- - пересоздать (удалить + создать)
+
+terraform.tfstate НЕ пушить в Git с секретами
+.terraform/ НЕ пушить в Git (большой, генерируется)
